@@ -1,0 +1,3 @@
+# B.E.C.C.A. Labs Benchmark Requirements
+# No external dependencies required for core benchmark.
+# Optional: numpy or pandas for analytics extensions.
