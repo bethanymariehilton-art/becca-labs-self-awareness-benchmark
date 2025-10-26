@@ -141,5 +141,4 @@ becca-labs-self-awareness-benchmark/
 
 ---
 
-Drop this into your README, commit, and push.
-That’ll make your repo *look* and *read* like an actual scientific benchmark release.
+
