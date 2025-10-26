@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "B.E.C.C.A. Labs Self-Awareness Benchmark"
+message: "If you use this benchmark, please cite it as below."
+authors:
+  - family-names: Stover
+    given-names: Dustin L.
+repository-code: "https://github.com/bethanymariehilton-art/becca-labs-self-awareness-benchmark"
+version: "1.0.0"
+date-released: 2025-10-26
+license: "MIT"
