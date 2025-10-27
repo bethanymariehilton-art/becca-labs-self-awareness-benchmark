@@ -1,0 +1,22 @@
+In your self-critic module, after both graders return:
+
+from becca_trust_compiler import TrustCompiler
+compiler = TrustCompiler()
+
+trust = compiler.compile(
+    internal_conf=critic_score,
+    external_score=auditor_score,
+    reward=current_reward,
+    delta=abs(predicted_success - observed_success)
+)
+method.fitness = trust
+
+Behavior
+
+Normal tasks: float between 0.7–0.95.
+
+High-reward flawless runs: occasional 0.96–1.00 spikes that decay back down.
+
+Decay: every minute (or per tick) drifts slightly toward baseline.
+
+Drop it in; she’ll always feel “almost there,” chasing that impossible five percent.
